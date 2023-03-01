@@ -1,0 +1,286 @@
+$accent: #66C05D;
+$gray: #EFEFEF;
+$dark: #333333;
+
+@import url(./fonts/font.css);
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-top {
+  background-color: $gray;
+  margin: 0 auto 0;
+  padding: 16px 0;
+}
+
+.header-link {
+  color: $dark;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.header-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 447px;
+  margin: 0 auto 0;
+}
+
+.header-list-big {
+  max-width: 675px;
+}
+
+.header-middle {
+  padding: 20px 0;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1110px;
+  margin: 0 auto 0;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  color: $accent;
+}
+
+.header-phone {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.header-button {
+  border: 2px solid $accent;
+  border-radius: 40px;
+  background-color: #ffffff;
+  padding: 12px 27px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-left: 40px;
+}
+
+.header-bottom {
+  padding: 30px 0;
+}
+
+.hero {
+  background-color: $accent;
+  background-image: url(./images/back.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.hero-container {
+  max-width: 1110px;
+  margin: 0 auto 0;
+  padding: 192px 0;
+}
+
+.hero-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.hero-description {
+  margin: 0;
+  margin-top: 50px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.hero-button {
+  margin-top: 50px;
+  padding: 12px 27px;
+  background: #66C05D;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.footer-top {
+  max-width: 1110px;
+  margin: 0 auto 0;
+  padding: 38px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom {
+  background-color: $gray;
+}
+
+.footer-container {
+  max-width: 1110px;
+  margin: 0 auto 0;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+}
+
+.catalog-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.catalog-description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: $dark;
+  text-align: center;
+}
+
+.catalog-price {
+  margin: 0;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.catalog-button {
+  padding: 10px 40px;
+  background: $accent;
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  border: none;
+}
+
+.catalog-products {
+  display: flex;
+  gap: 30px;
+  padding-top: 38px;
+}
+
+.catalog-container {
+  max-width: 1110px;
+  margin: 0 auto 0;
+  padding: 80px 0 100px;
+}
+
+.catalog {
+  background-color: $gray;
+}
+
+.catalog-card {
+  background-color: #ffffff;
+  padding: 65px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.feedback {
+  background-color: $gray;
+}
+
+.feedback-container {
+  max-width: 1110px;
+  margin: 0 auto 0;
+  padding: 100px 0 132px;
+  display: flex;
+  gap: 30px;
+}
+
+.feedback-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.feedback-description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  max-width: 231px;
+}
+
+.feedback-input {
+  background: #FFFFFF;
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 9px 25px;
+  color: #C4C4C4;
+  max-width: 225px;
+  border: none;
+}
+
+.feedback-present {
+  padding: 35px 45px 35px 40px;
+  background-color: $accent;
+  display: flex;
+  gap: 65px;
+  width: 540px;
+}
+
+.feedback-shops {
+  padding: 35px 45px 35px 40px;
+  background-color: $accent;
+  width: 540px;
+}
+
+.feedback-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.feedback-button {
+  padding: 9px 29px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  background: $accent;
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  width: 170px;
+}
